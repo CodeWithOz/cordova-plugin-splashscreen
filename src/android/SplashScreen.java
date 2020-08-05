@@ -334,7 +334,7 @@ public class SplashScreen extends CordovaPlugin {
                     handler.postDelayed(new Runnable() {
                         public void run() {
                             if (lastHideAfterDelay) {
-                                removeSplashScreen(false);
+                                // removeSplashScreen(false);
                             }
                         }
                     }, effectiveSplashDuration);
