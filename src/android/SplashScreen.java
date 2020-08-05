@@ -109,7 +109,7 @@ public class SplashScreen extends CordovaPlugin {
         orientation = cordova.getActivity().getResources().getConfiguration().orientation;
 
         if (firstShow) {
-            boolean autoHide = preferences.getBoolean("AutoHideSplashScreen", true);
+            boolean autoHide = false;
             showSplashScreen(autoHide);
         }
 
