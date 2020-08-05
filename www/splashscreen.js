@@ -30,4 +30,6 @@ var splashscreen = {
     }
 };
 
+console.log('Uche modified this');
+
 module.exports = splashscreen;
