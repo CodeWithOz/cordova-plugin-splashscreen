@@ -328,6 +328,7 @@ public class SplashScreen extends CordovaPlugin {
                     spinnerStart();
                 }
 
+                /*
                 // Set Runnable to remove splash screen just in case
                 if (hideAfterDelay) {
                     final Handler handler = new Handler();
@@ -339,6 +340,7 @@ public class SplashScreen extends CordovaPlugin {
                         }
                     }, effectiveSplashDuration);
                 }
+                */
             }
         });
     }
